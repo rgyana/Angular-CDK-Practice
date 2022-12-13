@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header-component.component.html',
   styleUrls: ['./header-component.component.css'],
 })
-export class HeaderComponentComponent implements OnInit {
+export class HeaderComponentComponent {
   title = 'Hello world';
 
   constructor() {

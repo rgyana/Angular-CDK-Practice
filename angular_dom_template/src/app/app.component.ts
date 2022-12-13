@@ -7,7 +7,7 @@ import {
   Injector,
   ViewContainerRef,
 } from '@angular/core';
-import { HeaderComponentComponent } from './header-component/header-component.component';
+// import { HeaderComponentComponent } from './header-component/header-component.component';
 
 @Component({
   selector: 'app-root',
