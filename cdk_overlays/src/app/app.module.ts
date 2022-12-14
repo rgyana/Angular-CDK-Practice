@@ -5,14 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { OverlayModule} from '@angular/cdk/overlay';
+import { OverlayBasicExampleComponent } from './overlay-basic-example/overlay-basic-example.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OverlayBasicExampleComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OverlayModule
   ],
   providers: [],
   bootstrap: [AppComponent]

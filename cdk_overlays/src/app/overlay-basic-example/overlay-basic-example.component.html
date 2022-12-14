@@ -1,0 +1,13 @@
+<!-- this button triggers overlay and its origin -->
+<button (click)="isOpen = !isOpen" type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+    {{ isOpen ? "Close" : "Open" }}
+</button>
+
+<!-- this template displays ovelay content and is connectted to the buttton -->
+<ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger" [cdkConnectedOverlayOpen]="isOpen">
+    <ul class="exam-list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+</ng-template>
