@@ -1,0 +1,12 @@
+<ng-template #template>
+  <div class="modal-card">
+    <header class="modal-card-head" cdkTrapFocus cdkTrapFocusAutoCapture>
+      <h3 tabindex="0">{{ title }}</h3>
+      <a role="button" tabindex="0" (click)="closeModal()"
+        aria-label="Close Modal"><span>X</span></a>
+      <section class="modal-card-body">
+        <!-- <p class="regular" tabindex="0">{{ body }}</p> -->
+      </section>
+    </header>
+  </div>
+</ng-template>

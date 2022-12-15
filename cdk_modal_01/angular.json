@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cdk_overlays_custom1": {
+    "cdk_modal_01": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cdk_overlays_custom1",
+            "outputPath": "dist/cdk_modal_01",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cdk_overlays_custom1:build:production"
+              "browserTarget": "cdk_modal_01:build:production"
             },
             "development": {
-              "browserTarget": "cdk_overlays_custom1:build:development"
+              "browserTarget": "cdk_modal_01:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cdk_overlays_custom1:build"
+            "browserTarget": "cdk_modal_01:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "49038161-0077-4536-87ea-be802ed72cd8"
+    "analytics": "4e0cbd25-1ce2-4cbd-b988-420dd150013a"
   }
 }

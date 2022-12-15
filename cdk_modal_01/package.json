@@ -1,5 +1,5 @@
 {
-  "name": "cdk-overlays-custom1",
+  "name": "cdk-modal-01",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
